@@ -3,6 +3,7 @@
 MDH AI Avoid Laydown is a mod, created by Moerderhoschi for Arma 3.
 
 HOW THE ADDON WORKS?
+
 This addon let AI units avoid to laydown on the ground.
 
 Dowload on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=3438379619
