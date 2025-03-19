@@ -87,12 +87,14 @@ if (missionNameSpace getVariable ["pAvoidAiLayingDown",99] == 99) then
 		};
 
 		_diaryTimer = 10;
+		pAiStayLowInCombat = 0; // deact MDH AI Stay low in Combat Mod/script
 		sleep (3 + random 2);
 		while {missionNameSpace getVariable ["pAvoidAiLayingDown",_defaultValue] == _valueCheck} do
 		{
 			if (_env) then {call _mdhFnc};
 			sleep 1;
 			if (time > _diaryTimer && {hasInterface}) then {call _diary; _diaryTimer = time + 10};
+			if (time > _diaryTimer) then {pAiStayLowInCombat = 0};
 		};					
 	};
 };
