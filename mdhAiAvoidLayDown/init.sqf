@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
-// MDH AI AVOID LAYDOWN(by Moerderhoschi) - v2025-03-16
+// MDH AI AVOID LAYDOWN(by Moerderhoschi) - v2025-03-27
 // github: https://github.com/Moerderhoschi/arma3_mdhAiAvoidLaydown
 // steam mod version: https://steamcommunity.com/sharedfiles/filedetails/?id=3438379619
 /////////////////////////////////////////////////////////////////////////////////////////////
@@ -65,7 +65,7 @@ if (missionNameSpace getVariable ["pAvoidAiLayingDown",99] == 99) then
 			_mdhFnc =
 			{
 				{
-					if (alive _x && {vehicle _x == _x} && {!(_x in allPlayers)}) then
+					if (alive _x && {vehicle _x == _x} && {!(_x in allPlayers)} && {unitPos _x != "Down"}) then
 					{
 						if (behaviour _x == "COMBAT") then
 						{
