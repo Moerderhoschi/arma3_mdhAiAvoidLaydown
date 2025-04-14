@@ -1,4 +1,4 @@
- ![Alt text](https://images.steamusercontent.com/ugc/32193398118964880/5F3F05FBB2A2E9A91B1F9ABCB1C40661E9823EB8/)
+![mdhAiAvoidLaydown](https://github.com/user-attachments/assets/95d3e0b5-da4a-48bd-ba63-c28ed7a3a8ff)
 
 MDH AI Avoid Laydown is a mod, created by Moerderhoschi for Arma 3.
 
